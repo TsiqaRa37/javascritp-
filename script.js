@@ -1,15 +1,3 @@
-// let number = 0;
-// for(let i = 10; i <= 97; i++){
-//   if(i % 2 !== 0){
-//     number++;
-//   }
-// }
-// console.log(number); // 44
-
-// const p =3.14;
-// console.log(Math.PI);
-
-
 //  #1
 // let number1 = prompt("შეიყვანეთ პირველი რიცხვი:");
 // let number2 = prompt("შეიყვანეთ მეორე რიცხვი:");
@@ -33,7 +21,7 @@
 //   console.log("პირველი რიცხვი არ არის მოთავსებული მეორესადამდე");
 // }
 
-//  #3 
+//  #3
 // let year = prompt("შეიყვანეთ წელი: ");
 // if ((year % 4 == 0 && year % 100 != 0) || year % 400 == 0) {
 //   console.log("ნაკიანია");
@@ -41,7 +29,7 @@
 //   console.log("არ არის ნაკიანი");
 // }
 
-//  #4 
+//  #4
 
 // let number = prompt("შეიყვანეთ რიცხვი 1-100-ის ჩათვლით");
 // if (number % 3 === 0) {
@@ -51,3 +39,11 @@
 // } else if (number % 3 === 0 && number % 5 === 0) {
 //   console.log("იყოფა სამზეც და 5 ზეც");
 // }
+
+let inputNumber = prompt('შეიყვანეთ რიცხვი:');
+inputNumber = parseInt(inputNumber);
+let product = 1;
+for (let i = 1; i <= inputNumber; i++) {
+	product *= i;
+}
+console.log(product);
