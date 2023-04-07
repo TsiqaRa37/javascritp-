@@ -40,10 +40,11 @@
 //   console.log("იყოფა სამზეც და 5 ზეც");
 // }
 
-let inputNumber = prompt('შეიყვანეთ რიცხვი:');
-inputNumber = parseInt(inputNumber);
-let product = 1;
-for (let i = 1; i <= inputNumber; i++) {
-	product *= i;
-}
-console.log(product);
+// #5
+// let inputNumber = prompt('შეიყვანეთ რიცხვი:');
+// inputNumber = parseInt(inputNumber);
+// let product = 1;
+// for (let i = 1; i <= inputNumber; i++) {
+// 	product *= i;
+// }
+// console.log(product);
